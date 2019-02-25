@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <title>food</title>
+    <style>
+        body{
+            font-family:"微軟正黑體";
+            
+
+        }
+		.header-carouse-item{
+			height:400px;			
+		}
+		.bg-cover{
+			background-size:cover;
+			background-position:center center;
+            background-repeat: no-repeat;
+		}
+		.carousel-caption{
+			background-color:rgba(0,0,0,.6);
+		}
+		.fas{
+			margin-right:10px;
+        }
+       @media (min-width:768px){
+        .text-md-dark{
+            color:#333;
+
+             }
+       }
+     
+       
+       
+        			
+        label{
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }      
+        footer{
+            background-color: #f0f0f0;
+        }
+		
+	
+
+	
+	
+	</style>
+</head>
+
+<body>
+    <!--頂部-->
+    <div class="bg-secondary py-1">
+        <div class="container text-right">
+            <a href="#" class="text-white mr-2"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
+        </div>
+    </div>
+
+    <!--導覽條-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i>一家餐廳</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            美食菜單
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#information">街頭美食</a>
+                            <a class="dropdown-item" href="#information">傳統美食</a>
+                            <a class="dropdown-item" href="#information">關於我們</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="請輸入..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--輪播圖-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item header-carouse-item bg-cover active" style="background-image:url(food01.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>大口的放縱，毫無保留</h5>
+                    <p>華人的飲食文化淵遠流長，舉世皆知，雖然今天在國際上各大都市均可吃到中國菜，但是行家們仍一致認為唯有在臺灣才能品嚐到各式各樣道地的中國菜餚。</p>
+                </div>
+            </div>
+            <div class="carousel-item header-carouse-item bg-cover" style="background-image:url(food02.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>民以食為天的臺灣，幾乎是三步一小吃店</h5>
+                    <p>Waterfront Ocean Express Station</p>
+                </div>
+            </div>
+            <div class="carousel-item header-carouse-item bg-cover" style="background-image:url(food03.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>而臺灣獨有的本土料理，風靡全球，嚐味一次，必將永生難忘。</h5>
+                    <p>Taichung station</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--內容1-->
+    <div class="section bg-info py-3" id="information">
+        <div class="container py-2">
+            <div class="row text-white text-center">
+                <div class="col-md-4 mt-3">
+                    <i class="fas fa-utensils fa-5x"></i>
+                    <h3>忘卻不瞭的莓果香</h3>
+                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
+                </div>
+
+
+                <div class="col-md-4 mt-3">
+                    <i class="fas fa-utensils fa-5x"></i>
+                    <h3>忘卻不瞭的莓果香</h3>
+                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
+                </div>
+
+
+                <div class="col-md-4 mt-3">
+                    <i class="fas fa-utensils fa-5x"></i>
+                    <h3>忘卻不瞭的莓果香</h3>
+                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--內容2-->
+    <section class="container-fluid py-5 text-white" style="position:relative;color:rg;" id="tech">
+        <div class="row">
+            <div class="col-md-4 bg-cover" style="
+				position:absolute;top:0; bottom:0;
+				background-image:url(food04.jpg);"></div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end text-md-dark" >
+                <div class="col-md-8">
+                    <h3><i class="fas fa-address-card"></i>歡迎來到一家餐廳</h3>
+                    <p>示投了對朋正可……立放福處前……馬美史幾要聽品快是屋知生爸是於品媽計上出角景、氣明有呢識一童我我型的們給落，下想接理天主清，度可們出。</p>
+                    <a href="#" class="btn btn-outline-info">了解更多</a>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h3><i class="fas fa-address-card"></i>像美食班的饗宴</h3>
+                            <p>別候微國起法子在白學無、和了但山越會縣更、心家期調城受治、開們心；我要作即府們在多建傷印死岸自念走個的五兒大不緊花事灣。</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3><i class="fas fa-address-card"></i>呵護您溫軟的胃</h3>
+                            <p>產生沒有意義的文字組合（文章？），供排版時填充版面用，但不會因為字義而左右版型的判斷。文字、標點符號出現機率大致符合台灣文章習慣。聽說很多學排版的都會用這個工具</p>
+                            <a class="btn btn-success float-right" href="#">點我查看</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--自傳-->
+    <section id="self bg-light">
+        <div class="container py-3">
+            <div class="text-center py-5">
+                <h2>為何如此的美味呢</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
+                        <div>
+                            <h3>為何如此美味呢?</h3>
+                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
+                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
+                        <div>
+                            <h3>為何如此美味呢?</h3>
+                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
+                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
+                        <div>
+                            <h3>為何如此美味呢?</h3>
+                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
+                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
+                        <div>
+                            <h3>為何如此美味呢?</h3>
+                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
+                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--內容3-->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h3>以臉下眾研時緊公的來更在的的</h3>
+                    <p>建子和，進不相。</p>
+                    <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長
+                        。子只無子我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時
+                        花直錢養我等後件內樣感算有，看到除學論持讀如家藝一天作。</p>
+                    <p>究者實，那由成這話產創。否關文愛面的總道強。國位地月和美，常約有在位
+                        ！就了灣指藥學會信德想！題二地細外看龍；度作幾越在盡力講理都評說不孩主
+                        來心化效人，去國回來，不那光班語……必變上高來，去孩便隨灣！一認臺的國和
+                        臺散我……老不放媽小出不。有大如、長能要近親打樂我！因說定作於助氣原大
+                        心……難往時有展受不……知我活中站人會？起我時快到型上文少媽點可史特的環
+                        南輕直時非師。
+
+                    </p>
+                    <p>究者實，那由成這話產創。否關文愛面的總道強。國位地月和美，常約有在位
+                        ！就了灣指藥學會信德想！題二地細外看龍；度作幾越在盡力講理都評說不孩主
+                        來心化效人，去國回來，不那光班語……必變上高來，去孩便隨灣！一認臺的國和
+                        臺散我……老不放媽小出不。有大如、長能要近親打樂我！因說定作於助氣原大
+                        心……難往時有展受不……知我活中站人會？起我時快到型上文少媽點可史特的環
+                        南輕直時非師。
+
+                    </p>
+                </div>
+                <div class="col-md-5 text-center"><img src="food05.jpg" alt="food" class="img-fluid w-100" style="height:500px;"></div>
+            </div>
+        </div>
+        </section>
+        <!--Map-->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d233160.04829883314!2d120.40232425153353!3d24.061875694731917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469397bd909c46b%3A0x4fd24a0b36f074bf!2z5rW35rSL5Zyw5ZyW6KSH5ZCI5byP6Iy26aOyT2NlYW4gTWFw!5e0!3m2!1szh-TW!2stw!4v1549733148449"
+                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="col-md-6">
+                        <form>
+                            <form-group>
+                                <label for="username">姓名</label>
+                                <input type="text" class="form-control" id="username" placeholder="請輸入姓名">
+                            </form-group>
+                            <form-group>
+                                <label for="tel">電話</label>
+                                <input type="tel" class="form-control" id="tel" placeholder="請輸入電話">
+                            </form-group>
+                            <form-group>
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="請輸入e-mail">
+                            </form-group>
+                            <form-group>
+                                <label for="number">輸入人數</label>
+                                <input type="number" class="form-control" id="number" placeholder="請輸入人數">
+                            </form-group>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">需要素食</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">不需要素食</label>
+                            </div>
+                        </form>
+                        <div class="mt-3 float-right">
+                            <button type="reset" class="btn btn-secondary">取消</button>
+                            <button type="submit" class="btn btn-success">送出</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--底部-->
+        <section>
+            <div class="container-fluid">
+                <div class="row text-white">
+                    <div class="col-md-6 bg-cover" style="background-image: url(food06.jpg);">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-10 py-2 m-auto">
+                                    <h3>為何乳此美味</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
+                                        necessitatibus,
+                                        quaerat quam officia culpa, quibusdam labore, odio cupiditate sed
+                                        reprehenderit. Impedit quo
+                                        ipsam voluptatum dicta exercitationem optio tempora molestias.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bg-cover" style="background-image: url(food08.jpg);">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-10 py-2 m-auto">
+                                        <h3>為何乳此美味</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
+                                            necessitatibus,
+                                            quaerat quam officia culpa, quibusdam labore, odio cupiditate sed
+                                            reprehenderit. Impedit quo
+                                            ipsam voluptatum dicta exercitationem optio tempora molestias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class=" py-4 mt-5">
+            <div class="container d-flex justify-content-between">
+                <div>@copyright by huang 2019</div>
+                <div><i class="fab fa-facebook fa-2x"></i>
+                    <i class="fab fa-line fa-2x mx-2"></i>
+                    <i class="fab fa-twitter fa-2x"></i>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

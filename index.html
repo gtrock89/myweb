@@ -1,403 +1,370 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="zh-Tw">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
-    <title>food</title>
-    <style>
-        body{
-            font-family:"微軟正黑體";
-            
-
-        }
-		.header-carouse-item{
-			height:400px;			
-		}
-		.bg-cover{
-			background-size:cover;
-			background-position:center center;
-            background-repeat: no-repeat;
-		}
-		.carousel-caption{
-			background-color:rgba(0,0,0,.6);
-		}
-		.fas{
-			margin-right:10px;
-        }
-       @media (min-width:768px){
-        .text-md-dark{
-            color:#333;
-
-             }
-       }
-     
-       
-       
-        			
-        label{
-            margin-bottom: 0px;
-            margin-top: 10px;
-        }      
-        footer{
-            background-color: #f0f0f0;
-        }
-		
-	
-
-	
-	
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="myjs.js"></script>
+    <title>商業網站</title>
 </head>
-
 <body>
-    <!--頂部-->
-    <div class="bg-secondary py-1">
-        <div class="container text-right">
-            <a href="#" class="text-white mr-2"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
-        </div>
-    </div>
+ <!--nav-->
+  <div class="gotop">
+  <a href="#"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flecha_arriba.svg/682px-Flecha_arriba.svg.png" alt="top" >
+  </a>
+  </div>
 
-    <!--導覽條-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i>一家餐廳</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            美食菜單
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#information">街頭美食</a>
-                            <a class="dropdown-item" href="#information">傳統美食</a>
-                            <a class="dropdown-item" href="#information">關於我們</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="請輸入..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">  
+    <header class="container text-white">    
+        <a class="navbar-brand" href="index.html"><img src="https://www.designevo.com/res/templates/thumb_small/cute-monkey-and-interesting-gaming.png" alt="logo" class="logo"></a><h3 class="text-secondary" style="font-family: fantasy;">Comp<span class="text-danger" style="font-family: fantasy;">a</span>ny</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link " href="index.html">首頁 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="about.html">關於我們</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="shop.html">產品商城</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="personal.html">人力資源</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">聯絡我們</a>
+              </li>
+            </ul> 
+                          
+        </div>       
+        </header>
+      </nav>
+   
 
-    <!--輪播圖-->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item header-carouse-item bg-cover active" style="background-image:url(food01.jpg)">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>大口的放縱，毫無保留</h5>
-                    <p>華人的飲食文化淵遠流長，舉世皆知，雖然今天在國際上各大都市均可吃到中國菜，但是行家們仍一致認為唯有在臺灣才能品嚐到各式各樣道地的中國菜餚。</p>
-                </div>
-            </div>
-            <div class="carousel-item header-carouse-item bg-cover" style="background-image:url(food02.jpg)">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>民以食為天的臺灣，幾乎是三步一小吃店</h5>
-                    <p>Waterfront Ocean Express Station</p>
-                </div>
-            </div>
-            <div class="carousel-item header-carouse-item bg-cover" style="background-image:url(food03.jpg)">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>而臺灣獨有的本土料理，風靡全球，嚐味一次，必將永生難忘。</h5>
-                    <p>Taichung station</p>
-                </div>
-            </div>
+      
+<!--nav end-->
+
+<!--廣告-->
+<section class="carousel-section" style="margin-top: 76px;">
+        <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="bg-cover" style="background-image:url(https://www.raixinqp.com/pub_images/4ae03302efeda8a45c4350ceb76d854f.jpg);">    
+                                      <div class="carousel-caption index-carousel-caption ">
+          <h3>Stay young</h3>
+          <p>We're young,We still have time.</p>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+                    </div> 
+
+                 </div>
+                  <div class="carousel-item">
+                    <div class="bg-cover" style="background-image:url(https://www.raixinqp.com/pub_images/df67901c996bc3ef29a96e99e3389bc1.jpg);" ></div>
+                    <div class="carousel-caption index-carousel-caption ">
+          <h3>Smooth Jazz</h3>
+          <p>Music is a powerful thing.</p>
+        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="bg-cover" style="background-image:url(https://www.raixinqp.com/pub_images/bc5e31341d9a3644adbed5e1d9efcfb0.jpg);" ></div>          
+                <div class="carousel-caption index-carousel-caption ">
+          <h3>Dream On</h3>
+          <p>To see is to believe.</p>
+        </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              </div>
+</section>
+<!--廣告end-->
+
+<!--商品分類-->
+<section class="container mt-5">
+  <h2 class=" text-blue border-bottom"><i class="fas fa-grip-horizontal mr-2 text-brown"></i>產品分類</h2>
+  <p>家具最佳選擇-優渥實木，沙發、茶几、電視櫃、書櫃、床墊、衣櫃、餐抓、床架等，多樣家具可供選購. 
+  於環保，我們也朝著自然生態保護發展，以綠建材為客戶創造溫馨健康舒適的無毒居住空間，也為我們所在的地球盡份力。 
+　　</p>
+  <div class="row">
+    <div class="col-12">
+      <div class="card-deck mt-2 product-categories">
+        <a href="shop.html" class="card card-title">
+          <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_e7734d0181e1a1db7826bbe0fabb4967.jpg" alt="jay">
+          <div class="card-body card-body-title ">
+            <h5 class="card-title  text-center ">梳洗間</h5>
+          </div>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <a href="shop.html" class="card card-title">
+          <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_13ff0709228e945108b967e928bdce7e.jpg" alt="ame">
+          <div class="card-body card-body-title ">
+            <h5 class="card-title  text-center">地板</h5>
+          </div>
         </a>
+               <a href="shop.html" class="card card-title">
+          <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_4c51e3d3f7fd93cb6d3531a624ce0417.jpg" alt="mayday">
+          <div class="card-body card-body-title ">
+            <h5 class="card-title  text-center">磁磚</h5>
+          </div>
+        </a>
+               <a href="shop.html" class="card card-title">
+          <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_0467e0650c4c670dacbf41f020623555.jpg" alt="ayu">
+          <div class="card-body card-body-title ">
+            <h5 class="card-title  text-center">廚具</h5>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--熱門商品-->
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class=" text-blue border-bottom"><i class="fas fa-fire mr-2 text-danger"></i>熱門商品</h2>
+    </div>
+    <div class="container">
+    <div class="row mt-4 hotcom">
+    <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_35e1696bff837f17683c52b636a684c7.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">精美430</h4>
+          <p class="card-text card-text-content">Larger internal buffer size to reduce feeding loss with large PCBs</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;1200</del>
+            </small>
+            NT$&nbsp;999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
+        </div>
+      </div>
     </div>
 
-    <!--內容1-->
-    <div class="section bg-info py-3" id="information">
-        <div class="container py-2">
-            <div class="row text-white text-center">
-                <div class="col-md-4 mt-3">
-                    <i class="fas fa-utensils fa-5x"></i>
-                    <h3>忘卻不瞭的莓果香</h3>
-                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
-                </div>
-
-
-                <div class="col-md-4 mt-3">
-                    <i class="fas fa-utensils fa-5x"></i>
-                    <h3>忘卻不瞭的莓果香</h3>
-                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
-                </div>
-
-
-                <div class="col-md-4 mt-3">
-                    <i class="fas fa-utensils fa-5x"></i>
-                    <h3>忘卻不瞭的莓果香</h3>
-                    <p>沒有遺憾的愛過 支持過他們 在商言商 他們總是假設:喔 但相信我 可是已經來不急囉</p>
-                </div>
-
-            </div>
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_8fed52f046b83a17f0df5be717683d2c.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Σ-G5SⅡ</h4>
+          <p class="card-text card-text-content">Extended detection range of components held for better mounting quality</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;600</del>
+            </small>
+            NT$&nbsp;500
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
         </div>
+      </div>
     </div>
 
-
-    <!--內容2-->
-    <section class="container-fluid py-5 text-white" style="position:relative;color:rg;" id="tech">
-        <div class="row">
-            <div class="col-md-4 bg-cover" style="
-				position:absolute;top:0; bottom:0;
-				background-image:url(food04.jpg);"></div>
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_aee4587d913f67334dd94745d0063a94.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Placeholder</h4>
+          <p class="card-text card-text-content">X axis 2-beam : High-speed multi-purpose
+(HM : High-speed Multi) head x 2</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;15300</del>
+            </small>
+            NT$&nbsp;12999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
         </div>
-        <div class="container">
-            <div class="row justify-content-end text-md-dark" >
-                <div class="col-md-8">
-                    <h3><i class="fas fa-address-card"></i>歡迎來到一家餐廳</h3>
-                    <p>示投了對朋正可……立放福處前……馬美史幾要聽品快是屋知生爸是於品媽計上出角景、氣明有呢識一童我我型的們給落，下想接理天主清，度可們出。</p>
-                    <a href="#" class="btn btn-outline-info">了解更多</a>
+      </div>
+    </div>
 
-                    <div class="row mt-4">
-                        <div class="col-md-6">
-                            <h3><i class="fas fa-address-card"></i>像美食班的饗宴</h3>
-                            <p>別候微國起法子在白學無、和了但山越會縣更、心家期調城受治、開們心；我要作即府們在多建傷印死岸自念走個的五兒大不緊花事灣。</p>
-                        </div>
-
-                        <div class="col-md-6">
-                            <h3><i class="fas fa-address-card"></i>呵護您溫軟的胃</h3>
-                            <p>產生沒有意義的文字組合（文章？），供排版時填充版面用，但不會因為字義而左右版型的判斷。文字、標點符號出現機率大致符合台灣文章習慣。聽說很多學排版的都會用這個工具</p>
-                            <a class="btn btn-success float-right" href="#">點我查看</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_abbbf15d636f0394c844515f647089e2.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Z:LEX YSM20R</h4>
+          <p class="card-text card-text-content">Specifications and appearance are subject to change without prior notice</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;5760</del>
+            </small>
+            NT$&nbsp;3588
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!--自傳-->
-    <section id="self bg-light">
-        <div class="container py-3">
-            <div class="text-center py-5">
-                <h2>為何如此的美味呢</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex">
-                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
-                        <div>
-                            <h3>為何如此美味呢?</h3>
-                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
-                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <div class="d-flex">
-                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
-                        <div>
-                            <h3>為何如此美味呢?</h3>
-                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
-                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex">
-                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
-                        <div>
-                            <h3>為何如此美味呢?</h3>
-                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
-                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="d-flex">
-                        <div><i class="fas fa-baby-carriage fa-4x"></i></div>
-                        <div>
-                            <h3>為何如此美味呢?</h3>
-                            <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長。子只無子
-                                我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_cd021ba2c6421cd4b027f37963982751.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">庫爾凡</h4>
+          <p class="card-text card-text-content">Larger internal buffer size to reduce feeding loss with large PCBs</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;1200</del>
+            </small>
+            NT$&nbsp;999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!--內容3-->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h3>以臉下眾研時緊公的來更在的的</h3>
-                    <p>建子和，進不相。</p>
-                    <p>毒全原化，心女熱以雖！我華回風，技海了機市共教不社國？青戰事孩，的裡氣長
-                        。子只無子我；也又動統年；車以主小出經，許土存院她黑臺會眼從列說，我時
-                        花直錢養我等後件內樣感算有，看到除學論持讀如家藝一天作。</p>
-                    <p>究者實，那由成這話產創。否關文愛面的總道強。國位地月和美，常約有在位
-                        ！就了灣指藥學會信德想！題二地細外看龍；度作幾越在盡力講理都評說不孩主
-                        來心化效人，去國回來，不那光班語……必變上高來，去孩便隨灣！一認臺的國和
-                        臺散我……老不放媽小出不。有大如、長能要近親打樂我！因說定作於助氣原大
-                        心……難往時有展受不……知我活中站人會？起我時快到型上文少媽點可史特的環
-                        南輕直時非師。
-
-                    </p>
-                    <p>究者實，那由成這話產創。否關文愛面的總道強。國位地月和美，常約有在位
-                        ！就了灣指藥學會信德想！題二地細外看龍；度作幾越在盡力講理都評說不孩主
-                        來心化效人，去國回來，不那光班語……必變上高來，去孩便隨灣！一認臺的國和
-                        臺散我……老不放媽小出不。有大如、長能要近親打樂我！因說定作於助氣原大
-                        心……難往時有展受不……知我活中站人會？起我時快到型上文少媽點可史特的環
-                        南輕直時非師。
-
-                    </p>
-                </div>
-                <div class="col-md-5 text-center"><img src="food05.jpg" alt="food" class="img-fluid w-100" style="height:500px;"></div>
-            </div>
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_570774e9b5f5868209be48ef3ef7b5c1.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">福茲拉</h4>
+          <p class="card-text card-text-content">Larger internal buffer size to reduce feeding loss with large PCBs</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;1200</del>
+            </small>
+            NT$&nbsp;999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
         </div>
-        </section>
-        <!--Map-->
-        <section class="py-5 bg-light">
+      </div>
+    </div>
+
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_e8bc2650e6f3752a87f1b692001b2ee8.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">彩釉光</h4>
+          <p class="card-text card-text-content">Larger internal buffer size to reduce feeding loss with large PCBs</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;1200</del>
+            </small>
+            NT$&nbsp;999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-6 col-md-3 col-p">
+      <div href="#" class="card mb-3">
+        <img class="card-img-top" src="https://www.raixinqp.com/pub_images/thumb/s_39eca28e934b0b692370d1c450aed95c.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">WILD</h4>
+          <p class="card-text card-text-content">Larger internal buffer size to reduce feeding loss with large PCBs</p>
+          <h6 class="card-text text-danger">
+            <small class="text-secondary mr-2">
+              <del>NT$&nbsp;1200</del>
+            </small>
+            NT$&nbsp;999
+          </h6>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">查看商品</a>
+          <a href="shop.html" class="btn btn-outline-secondary btn-block">加入購物車</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+</section>
+
+<div class="container py-5">
+    <h2 class="text-blue border-bottom"><i class="fas fa-edit mr-2 text-secondary"></i>關於我們</h2>
+  <div class="row d-flex justify-content-center">
+    <div class="col-10 mt-2">
+    
+    <p style="line-height:2rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;象徵雨水充沛豐收豐厚，價值優渥的實木生活
+
+我們以使用人的觀點出發，不斷思考什麼才是真正能實踐自然的生活態度。
+發現人們喜好兼具美觀與收納功能的產品，因此，優渥以消費者使用經驗為考量，開始設計生產自然健康的實木傢俱，以提供最貼心、符合空間使用的傢俱，將實木帶進每個人的家居生活，是我們堅持的理念。
+優渥實木-實現您家庭的承諾。
+     </p>
+    </div>
+  </div>  
+</div>
+
+
+ <section class="py-5 bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d233160.04829883314!2d120.40232425153353!3d24.061875694731917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469397bd909c46b%3A0x4fd24a0b36f074bf!2z5rW35rSL5Zyw5ZyW6KSH5ZCI5byP6Iy26aOyT2NlYW4gTWFw!5e0!3m2!1szh-TW!2stw!4v1549733148449"
-                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                    <div class="col-md-6">
-                        <form>
-                            <form-group>
-                                <label for="username">姓名</label>
-                                <input type="text" class="form-control" id="username" placeholder="請輸入姓名">
-                            </form-group>
-                            <form-group>
-                                <label for="tel">電話</label>
-                                <input type="tel" class="form-control" id="tel" placeholder="請輸入電話">
-                            </form-group>
-                            <form-group>
-                                <label for="email">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="請輸入e-mail">
-                            </form-group>
-                            <form-group>
-                                <label for="number">輸入人數</label>
-                                <input type="number" class="form-control" id="number" placeholder="請輸入人數">
-                            </form-group>
-                            <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio1">需要素食</label>
-                            </div>
-                            <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio2">不需要素食</label>
-                            </div>
-                        </form>
-                        <div class="mt-3 float-right">
-                            <button type="reset" class="btn btn-secondary">取消</button>
-                            <button type="submit" class="btn btn-success">送出</button>
-                        </div>
+                            width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div class="col-md-4 mt-5 ml-5">
+                  
+                    <p>公司名稱：company股份有限公司</p>
+<p>地址:42072 台北市內湖區中正路300,29號</p>
+<p>營業時間：週一至週六 10:00~19:00</p>
+          
+<p>洽詢電話：02-8051-0455</p>
+<p>傳真號碼：02-8051-0453</p>
+<p>客服專線：0800-666-555 </p> 
 
-
+                   
                     </div>
                 </div>
             </div>
         </section>
 
+<!--fotter-->
+<div class="footer-link text-center">
+  <a href="https://www.facebook.com/"><i class="fab fa-facebook m-2"></i></a>
+<a href="https://twitter.com/"><i class="fab fa-twitter-square m-2"></i></a>
+<a href="https://line.me/ti/p/hZU6WAlU2E"><i class="fab fa-line m-2"></i></a>  
 
-        <!--底部-->
-        <section>
-            <div class="container-fluid">
-                <div class="row text-white">
-                    <div class="col-md-6 bg-cover" style="background-image: url(food06.jpg);">
-                        <div class="container">
-                            <div class="row ">
-                                <div class="col-10 py-2 m-auto">
-                                    <h3>為何乳此美味</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
-                                        necessitatibus,
-                                        quaerat quam officia culpa, quibusdam labore, odio cupiditate sed
-                                        reprehenderit. Impedit quo
-                                        ipsam voluptatum dicta exercitationem optio tempora molestias.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 bg-cover" style="background-image: url(food08.jpg);">
-                            <div class="container">
-                                <div class="row ">
-                                    <div class="col-10 py-2 m-auto">
-                                        <h3>為何乳此美味</h3>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
-                                            necessitatibus,
-                                            quaerat quam officia culpa, quibusdam labore, odio cupiditate sed
-                                            reprehenderit. Impedit quo
-                                            ipsam voluptatum dicta exercitationem optio tempora molestias.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </section>
+</div>
+<footer class="bg-dark">
+  <div class="container pt-5 pb-3">
+    <div class="row">
+      <div class="col-12 col-md-6 mb-5">
+        <ul class="footer-menu">
+         <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">關於我們</a></li>
+          <li><a href="market.html">商品商城</a></li>
+          <li><a href="personal.html">人力資源</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </div>
+    
+<div class="col-12 col-md-6 mb-3">
+  <h6 class="text-white">留下 E-mail訂閱，可搶先獲得最新的資訊喔!</h6>
+  <form action="">
+      <input type="email" class="form-control mt-2 mb-2" placeholder="請輸入e-mail">
+      <button type="submit" class="btn btn-success float-right send-btn border-0">傳送</button>
+  </form>
+    </div>
 
-
-        <footer class=" py-4 mt-5">
-            <div class="container d-flex justify-content-between">
-                <div>@copyright by huang 2019</div>
-                <div><i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-line fa-2x mx-2"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                </div>
-            </div>
-        </footer>
+    <div class="col-12">
+      <p class="text-center text-white mt-3 mb-0"><a href="#"><i class="fas fa-arrow-to-top text-white"></i></a>Copyright© All rights reserved.2019</p>
+    </div>
+  </div>
+</footer>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 </body>
-
 </html>

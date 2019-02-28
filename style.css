@@ -1,0 +1,234 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+*{
+     font-family:'Microsoft JhengHei',sans-serif;
+    
+}
+
+.logo{
+    height: 50px;
+    width:50px;
+}
+.gotop img{
+  width:50px;
+  height:50px;
+  position: fixed;
+  bottom:5px;
+  right:5px;
+  z-index:1040;
+  box-shadow:1px 1px 5px #333;
+  background-color:rgba(243,243,243,.5);
+  border-radius: 50%;
+  padding: 16px;
+}
+.gotop a{
+  display:none;
+}
+.gotop img:hover{
+  background-color:rgba(180,180,180,.5);
+}
+.navbar{
+  background-color: #EEEEEE;
+  box-shadow: 0px 2px 5px #666;
+}
+
+
+@media only screen and (max-width: 991px) {
+ ul.navbar-nav.ml-auto {
+    border-top: 2px solid rgba(0,0,0,.2);
+ }
+}
+
+
+
+.bg-cover{
+    height: 500px;
+    widows: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+@media only screen and (max-width: 1200px) {
+    .bg-cover {
+      height:300px;
+     }
+   }
+@media only screen and (max-width: 768px) {
+   .bg-cover {
+     height:200px;
+    }
+  }
+
+
+.product-categories a{
+  transform:scale(1);
+  transition:transform .4s;
+  margin:10px;
+}
+.product-categories a:hover{
+  text-decoration: none;
+  transform:scale(1.08);
+  box-shadow:4px 4px 5px #999;
+}
+.card-deck .card{
+  margin-right:5px !important;
+  margin-left:5px !important;
+}
+
+
+.text-blue{
+  color:#2887CA;
+}
+.text-brown{
+  color: #522709;
+}
+.text-border-left{
+  border-left: 4px solid gray;
+  padding-left: 10px;
+}
+
+.footer-link{
+  background-color:#343A40;
+  height: 50px;
+  font-size:30px;
+  opacity: .8;
+  line-height: 50px;
+}
+.footer-link i{
+  color:black;
+}
+.footer-menu{
+  display:block;
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+.footer-menu li{
+  display:inline-block;
+ margin-right: 1rem;
+}
+.footer-menu li a{
+  color:#fff;
+  padding:1rem 0rem;
+  text-decoration: none;
+}
+.footer-menu li a:hover{
+  color:#4C81B9;
+}
+
+.page-content{
+  min-height:700px;
+}
+.table-middle .table td, .table-middle .table th{
+  vertical-align:middle;
+}
+
+@media only screen and (max-width: 768px) {
+   .send-btn {
+    width:100%;
+    }
+  }
+
+.card-title:hover .card-body-title{
+  color: #f7f7f7;
+  background-color: #333;
+}
+
+.card-body-title{
+  height: 60px;
+  color:#6e6e6e;
+  background-color: #f2f2f2;
+}
+
+
+  
+@media only screen and (max-width: 450px) {
+   .card-text-content {
+    display:none;
+    }
+  }
+@media only screen and (max-width: 450px) {
+   #cart{
+    display:none;
+    }
+  }
+@media only screen and (max-width: 450px) {
+   .card-title{
+    font-size: 1rem;
+    }
+  }
+.btn-gray{
+  background-color: #E9ECEF;
+}
+
+#carouselFade .index-carousel-caption{
+  position:absolute;
+  left:10%;
+  right:50%;
+  border:3px solid white;
+  display: inline-block;
+  padding: 10px 0;
+}
+#carouselFade .index-carousel-caption p{
+  color:tomato;
+}
+@media only screen and (max-width: 450px) {
+   #carouselFade .index-carousel-caption{
+   left:10%;
+   right:50%;
+    }
+  }
+
+.carousel-caption{
+  text-shadow: 3px 3px 5px rgba(0,0,0,.9);
+ background-color:rgba(0,0,0,.2);
+      } 
+
+
+#nav-tabContent .col-p,.hotcom .col-p{
+  padding: 5px;
+}
+
+.carousel-caption{
+  opacity: 0;
+animation:move 2s linear .5s;
+animation-fill-mode: forwards;
+}
+@keyframes move{
+  from{
+    opacity: 0;
+   
+  }
+  to{
+    opacity: 1;
+
+  }
+}
+.btn-ho{
+  background-color:#E9ECEF !important;
+
+}
+.btn-search:hover .btn-ho{
+  background-color: #BFBFBF !important;
+
+}
+th,td{
+  white-space:nowrap;
+}
+.aboutimg{
+    opacity: 0.2;
+animation:moveimg 2s linear .5s;
+animation-fill-mode: forwards;
+}
+@keyframes moveimg{
+  from{
+    opacity: 0.2;
+   
+  }
+  to{
+    opacity: 1;
+
+  }
+}
